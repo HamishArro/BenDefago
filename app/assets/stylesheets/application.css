@@ -13,21 +13,13 @@
  *= require_tree .
  *= require_self
  */
-p {
-  padding-top: 50px;
-  width: 80%;
-  height: 100vh;
-  margin: auto;
-  background-color: #4ca0a0;
-}
 
-* {
+html {
   background-color: #9395d3;
 }
+
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #333;
 }
@@ -67,7 +59,22 @@ li a:hover {
 }
 
 .navbar {
+  padding-left: 10%;
+  padding-right: 10%;
   top: 0px;
+  left: 0px;
   position: fixed;
-  width: 100vw;
+  width: 100%;
+  margin: 0;
+}
+
+.display-image {
+  width: 100%;
+}
+
+.home {
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
+  background-color: #4ca0a0;
 }
